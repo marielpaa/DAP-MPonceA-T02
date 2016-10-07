@@ -1,0 +1,55 @@
+/*Margen de 300px de main y footer para no traslapar la barra de navegación lateral con el contenido*/
+main, footer {
+  padding-left: 300px;
+}
+
+/*Desplazamos la barra de navegación lateral 65 pixeles hacia abajo para poder visualizar correctamente la barra de navegación superior*/
+#slide-out {
+  margin-top: 65px;
+}
+
+.btn {
+  margin-top: .8em;
+}
+
+body{
+  background-color: whitesmoke;
+  font-family: Hind+Madurai;
+}
+
+.logo{
+	width: 200px;
+	margin-top: .5em;
+}
+
+/*En pantallas menores a 992px, desaparecerá la barra de navegación lateral, main y footer deben regresar a su lugar original*/
+@media only screen and (max-width : 992px) {
+    main, footer {
+    padding-left: 0;
+  }
+}
+
+/*estilo para botones*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button1 {border-radius: 12px;
+          margin-left:500px;}
+.button2 {border-radius: 12px;}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
